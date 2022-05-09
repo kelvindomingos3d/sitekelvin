@@ -1,0 +1,94 @@
+body,ul,li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.header{
+    background-color: black;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.menu{
+    display: flex;
+}
+.menu li{
+    margin-left: 10px;
+}
+.menu li a{
+    display: block;
+    padding: 10px;
+}
+/*Css Flexbox*/
+
+img{
+
+max-width: 100%;
+display: block;
+}
+button{
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    background-color: rgb(113, 169, 28);
+    transition-duration: 1.5s;
+
+}
+
+button:hover{
+    background-color: rgb(41, 61, 10);
+}
+
+div p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+ }
+
+
+h1{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.flexbox{
+display: flex;
+flex-wrap: wrap;
+min-width: 350px;
+max-width: 1200px;
+margin: 0 auto;
+gap:30px;
+
+}
+.flexbox a{
+
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    background-color: rgb(113, 169, 28);
+    transition-duration: 1.5s;   
+    font-size: 13px;
+}
+.flexbox a:hover{
+    background-color: rgb(41, 61, 10);
+
+}
+
+
+.flex> div{
+    flex: 1 1 0px;
+    margin: 100px;
+}
